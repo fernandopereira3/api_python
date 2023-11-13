@@ -5,7 +5,7 @@ on:
     branches: ['*']
 
 jobs:
-  deploy:
+  Python:
 
     runs-on: ${{ matrix.os }}
     strategy:
