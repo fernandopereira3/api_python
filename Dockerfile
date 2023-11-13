@@ -2,6 +2,6 @@ FROM mongo:latest
 
 WORKDIR /api
 
-COPY sentenciados.csv /api/
+COPY alunos.csv /api
 
-RUN mongoimport --host=localhost -d sentenciados -c pessoas --type csv --file sentenciados.csv --headerline
+RUN mongoimport --host=localhost -d alunos -c pessoas --type csv --file alunos.csv --headerline
