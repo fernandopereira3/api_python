@@ -28,5 +28,7 @@ jobs:
     - name: Iniciando Flask
       run: |
         nohub flask --app main.py run &
-        python3 teste.py
+
+    - name: Get
+      run: python3 test.py
 
