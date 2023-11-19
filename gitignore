@@ -11,6 +11,8 @@ __*
 _*
 # C extensions
 *.so
+.DS*
+__*
 
 # Distribution / packaging
 .Python

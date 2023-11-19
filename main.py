@@ -4,7 +4,7 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__)
 
-app.config["MONGO_URI"] = "mongodb://10.0.0.2:27017/api_001"
+app.config["MONGO_URI"] = "mongodb://localhost:27017/api_001"
 db = PyMongo(app).db
 
 @app.route('/')
@@ -20,4 +20,6 @@ def pesquisa():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+   app.run(debug=True)
+
+    
