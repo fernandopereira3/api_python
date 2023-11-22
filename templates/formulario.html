@@ -1,17 +1,25 @@
-{% extends 'index.html' %}
-
-{% block content %}
-
-        <form method="GET" action="">
-            <div class="mb-3">
-                <label>Nome</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Pesquisa de Alunos</div>
-              </div>
-              <button type="submit">Pesquisar</button>
-        </form>
- 
-{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <title>API</title> 
+    </head>
+    <body>
+        <div>
+            <h3>PESQUISA</h3>
+        </div>
+        <div>
+            <form method="POST">
+                Nome:
+                <br>
+                <input type="text" name="nome">
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </body>
+</html>
 
 
 
