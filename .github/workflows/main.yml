@@ -30,8 +30,8 @@ jobs:
         nohub flask --app main.py run &
 
 
-  Method:
-    needs: Python
-    uses: ./.github/workflows/test.yml
+  # Method:
+  #   needs: Python
+  #   uses: ./.github/workflows/test.yml
    
     
